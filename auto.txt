@@ -1,13 +1,12 @@
 
 Name table: car-dealer
 
-id                             BIGINT
-owner                          MEDIUMTEXT
-insuranceCost                  VARCHAR(255) 
-brand                          MEDIUMTEXT
-model                          MEDIUMTEXT 
-color                          MEDIUMTEXT
-plate number                   MEDIUMTEXT
-registration date              DATE 
-expire date                    DATE
-notes                           TEXT
+id                             BIGINT           PRIMARY_KEY    AUTO_INCREMENT    NOT_NULL
+insuranceCost                  VARCHAR(255)     NOT_NULL
+brand                          MEDIUMTEXT       NOT_NULL  
+model                          MEDIUMTEXT       NOT_NULL 
+color                          MEDIUMTEXT       NOT_NULL      
+plate number                   MEDIUMTEXT       NOT_NULL       UNIQUE
+registration date              DATE             NOT_NULL
+expire date                    DATE             NOT_NULL
+notes                          TEXT             NULL
