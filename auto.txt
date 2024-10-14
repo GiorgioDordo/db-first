@@ -1,3 +1,4 @@
+INSURANCE
 
 Name table: car-dealer
 
@@ -5,7 +6,8 @@ id                             BIGINT           PRIMARY_KEY    AUTO_INCREMENT   
 insuranceCost                  VARCHAR(255)     NOT_NULL
 brand                          MEDIUMTEXT       NOT_NULL  
 model                          MEDIUMTEXT       NOT_NULL 
-color                          MEDIUMTEXT       NOT_NULL      
+color                          MEDIUMTEXT       NOT_NULL
+model age                      YEAR             NOT_NULL
 plate number                   MEDIUMTEXT       NOT_NULL       UNIQUE
 registration date              DATE             NOT_NULL
 expire date                    DATE             NOT_NULL
