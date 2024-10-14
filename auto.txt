@@ -2,12 +2,12 @@
 Name table: car-dealer
 
 id                             BIGINT
-owner                          TEXT
+owner                          MEDIUMTEXT
 insuranceCost                  VARCHAR(255) 
-brand                          TEXT
-model                          TEXT 
-color                          TEXT
-plate number                   TEXT 
+brand                          MEDIUMTEXT
+model                          MEDIUMTEXT 
+color                          MEDIUMTEXT
+plate number                   MEDIUMTEXT
 registration date              DATE 
 expire date                    DATE
 note                           TEXT
