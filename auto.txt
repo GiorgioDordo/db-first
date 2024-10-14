@@ -10,4 +10,4 @@ color                          MEDIUMTEXT
 plate number                   MEDIUMTEXT
 registration date              DATE 
 expire date                    DATE
-note                           TEXT
+notes                           TEXT
